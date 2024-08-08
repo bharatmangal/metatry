@@ -45,7 +45,7 @@
 
             // Load the 3D model
             const loader = new THREE.FBXLoader();
-            loader.load('https://www.cgtrader.com/items/2496272/free-downloads/13349506', function(object) {
+            loader.load('model.fbx', function(object) {
                 scene.add(object);
                 render();
             }, undefined, function(error) {
